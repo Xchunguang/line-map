@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px
+}
+#selfChartMain{
+  position:fixed;width:100%;height:100%;
+   background: url(../../static/media/artboard.png) repeat-x 100% 100%!important; 
+}
+#hoverInfo{
+  background:rgba(74,74,74,0.30);
+  border-radius:4px;
+  width:145px;
+  height:50px;
+  color:#ffffff;
+  position: fixed;
+  padding: 0px 6px;
+  transition:.5s ease-in-out;
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+}
+#hoverInfo .hoverCircle{
+  display:inline-block;
+  width:8px;
+  height:8px;
+  border-radius:100%;
+  opacity:0.8;
+  margin-right:2px;
+}
+#hoverInfo .hoverName{
+  font-size:10px;
+}
+#hoverInfo p{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+#hoverInfo .incomeIcon{
+  display: inline-block;
+  width:8px;
+  height: 8px;
+  margin-right: 2px;
+  background: url(../../static/media/income.png) repeat-x 100% 100%!important;
+}
+
+#hoverInfo .assetsIcon{
+  display: inline-block;
+  width:8px;
+  height: 8px;
+  margin-right: 2px;
+  background: url(../../static/media/asses.png) repeat-x 100% 100%!important;
+}
+
+.hidden{
+  opacity: 0;
+}
